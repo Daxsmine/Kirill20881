@@ -44,7 +44,9 @@ h1,h2,p{
 height: 10px;
 width: 40px;
 background-color: rgb(0, 0, 0);
-flex-basis: 50%;
+display: flex;
+align-self: center;
+
 }
 .bloch{
     display: flex;
@@ -68,3 +70,11 @@ background-color: sandybrown;
     height: 300px;
 }
 
+.parents{
+width: 100%;
+background-color: sienna;
+display: flex;
+justify-content: space-between;
+padding: 15px;
+margin: 20px;
+}
