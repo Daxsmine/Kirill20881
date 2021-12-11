@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box 0;
+}
+body{
+    background-color:burlywood;
+}
+h1{
+    font-size: 40px;
+    color: white;
+}
+
+h2{
+    font-size: 34px;
+    color: white;
+    text-align: center;
+}
+
+ul{
+list-style-type:none;
+
+}
+
+ul>li{
+    font-size: 28px;
+    padding: 11px;
+}
+
+.container{
+width: 100%;
+max-width: 1200px;
+padding: 0 15px;
+margin: 0 auto;
+}
+.header-easy,
+.foteer-easy{
+    width: 100%;
+    height: 150px; 
+    background-color: rgb(27, 26, 26);  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-easy{
+    width: 100%;
+    display:flex;
+}
+
+.lol-left{
+    width: 30%;
+    height: 670px;
+    background-color: gold;
+    padding: 25px;
+
+}
+
+.lol-left__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lol-right{
+    width: 70%;
+    height: 670px;
+    background-color:indigo ;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.art-imagen{
+width: 100%;
+height: 300px;
+background-image:url(../css.jpg) ;
+background-position:center ;
+background-repeat:no-repeat ;
+background-size: cover;
+}
+.art-bottom{
+    padding: 20px;
+}
+
+
+.art-bottom__Mine{
+    width: 100%;
+    height: 200px;
+     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mine {
+    width: 25%;
+    height: 150px;
+    background-color:white;
+}
+
+.mine:hover{
+    width: 26%;
+    height: 160px;
+    background-color: rgb(82, 3, 3);
+}
+
