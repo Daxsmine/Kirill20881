@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border box 0;
+}
+.block{
+margin: 20px;
+padding: 10px;
+height: 100px;
+width: 100px;
+background-color: aqua;
+}
+.box1{
+position: static;
+left: 5px;
+}
+.box2{
+position: relative;
+top: 10px;
+left: 70px;
+bottom: 1px;
+}
+
+.box3{
+position: absolute;
+top:35px;
+left: 80%;
+z-index: 10;
+}
+
+.box4{
+    position: fixed;
+    top:35px;
+    left: 70%;
+    background-color: rgb(179, 25, 76);
+}
+
+.box5{
+position: sticky ;
+top:30px;
+    left: 40%;
+}
+h2{
+    text-align: center;
+}
+
+.flag{
+border:10px rgb(0, 0, 0) solid;
+background:transparent ;
+height: 400px;
+width: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+border-radius: 10px;
+margin: auto;
+top: 10;
+right: 0;
+left: 0;
+
+}
+
+.cera{
+    border-radius: 50%;
+    background-color: tomato;
+    height: 300px;
+    width: 300px;
+}
+
+.colo1{
+    background: linear-gradient(90deg, rgba(61,5,194,1) 15%, rgba(5,120,194,1) 29%, rgba(137,20,171,1) 44%, rgba(255,125,0,1) 87%);
+    height: 300px;
+    width: 300px;
+    bottom: 500px;
+    left: 400px;
+    border-radius: 20%;
+
+}
+
+.colo2{
+    border:10px rgb(255, 255, 255) solid;
+    background:transparent ;
+height: 200px;
+width: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 30px;
+top: 1200px;
+border-radius: 30%;
+}
+
+.colo3{
+    border:10px rgb(255, 255, 255) solid;
+    background:transparent ;
+height: 100px;
+width: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 37px;
+
+border-radius: 500%;
+}
+
+.colo4{
+    border:10px rgb(255, 255, 255) solid;
+    background:transparent ;
+height: 20px;
+width: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 140px;
+top: 7px;
+border-radius: 500%;
+
+}
