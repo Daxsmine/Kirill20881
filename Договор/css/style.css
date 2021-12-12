@@ -53,3 +53,8 @@ justify-content: center;
 color: aquamarine;
 
 }
+.center{
+    
+        display: block;
+        margin: 0 auto
+}
