@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{background-color: rgb(189, 236, 189);color: black;}
+
+.up-header{
+background-color: red;
+width: 300px;
+height: 70px;
+}
+
+.center-main{background-color: green;width: 300px;height:70px ;}
+
+.down-footer{background-color: blue; 
+width:300px;
+height: 70px;}
+
+.blok-header{height: 210px;
+    width: 300px;
+
+    padding: 30px;
+    margin: 30px;
+ 
+}
+
+.blok-main{width:300px;
+height: 210px; background-color: red ;
+}
+
+.header{width:300px;
+    height: 70px;display: flex;}
+
+.blok1{width: 300px;background-color: red;}
+.blok2{width: 300px;background-color: green;}
+.blok3{width: 300px;background-color: blue;}
+
+.main{width:300px;
+    height: 70px;background-color: yellow;}
+
+.class{padding: 30px;margin: 30px;}
+
+.foot1{background-color: thistle;width: 300px;}
+.foot2{background-color: black;width: 300px;}
+
+.footer{width:300px;
+    height: 70px;display: flex;}
+
+
+
+    .down{background-color: greenyellow;
+    width: 400px;height: 300px; padding: 30px;margin: 30px; display: flex; justify-content: space-between;align-items: center;}
+
+    .bloks1{background-color: red;height: 100px; width: 100px;}
+    .bloks2{background-color: green;height: 100px; width: 100px;}
+    .bloks3{background-color: blue;height: 100px; width: 100px;}
+
+    h1{text-align: center;}
