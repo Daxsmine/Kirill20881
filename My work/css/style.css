@@ -1,0 +1,79 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box 0;}
+
+
+body{
+    color: black;
+    background-color: ghostwhite;
+list-style-type: none;
+text-decoration: none;
+width: 100%;
+font-size: 18px;
+font-weight: 400;
+
+
+}
+
+A {
+    color: black; /* Цвет ссылок */
+   }
+   A:visited {
+    color: black; /* Цвет посещенных ссылок */
+   }
+   A:active {
+    color:black; /* Цвет активных ссылок */
+   }
+
+
+
+
+.blok-1,.blok-2,.blok-3,.blok-4,.list{
+    width: 100%;
+margin: 0 auto;
+
+}
+
+.blok-2{background-color: beige;}
+
+.container{width: 944px;
+margin: 0 auto;
+text-align: center;}
+
+ul{display: flex;
+justify-content: space-between;
+list-style: none;
+padding-top:23px ;
+padding-bottom: 31px;
+border-bottom: 1px solid black;}
+
+.header{padding-top: 40px
+    ;
+padding-bottom: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.blok-1{padding-bottom: 50px;}
+
+.photo-1{width: 944px;
+height: 385px;
+background:url(../photo/novik.jpg) ;}
+
+h1{width: 40px;}
+.text__ip{width: 145px;}
+
+
+.lang{transform: rotate(-90deg);
+margin-right:-26px ;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;}
+
+.blok-2{text-align: center;}
+
+
+.blok-2__text{width: 485px;
+margin: 0 auto;
+margin-top: 18px;}
