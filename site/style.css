@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+
+body{
+   background-image: url(img/scattered-forcefields.png);
+   max-width: 100%;
+   max-height: 100%;
+   /* max-width: 1920px;
+   max-height: 900px; */
+    text-align: center;
+   
+}
+
+input {outline:none;
+
+}
+
+.header{
+    height: 150px;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    
+}
+
+.main{
+    height: 375px;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.footer{
+    height: 375px;
+    display: block;
+    justify-items: center;
+}
+
+hr{
+    border: 3px solid;
+    margin-right:200px;
+    margin-left:200px ;
+    max-width: 1420px;
+}
+
+.block{
+    height: 150px;
+    width: 250px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}  
+
+img{
+    width: 160px;
+    height: 155px;
+}
+
+.block1{
+height: 150px;
+width: 250px;
+/* background-color: aquamarine; */
+border: 2px solid;
+text-align: center;
+}  
+
+.block2{
+    height: 150px;
+    width: 800px;
+    /* background-color: rgb(69, 21, 213); */
+    border: 2px solid;
+    border-left:0px;
+}  
+
+h1{text-align: center;
+    margin-top: 50px;
+    
+}
+
+h3{
+    margin-top: 55px;
+}
+
+.block3{
+    height: 150px;
+    width: 250px;
+    /* background-color: rgb(212, 23, 200); */
+    border:2px solid;
+    border-left: 0px;
+}
+
+.box{
+    justify-items: center;
+}
+
+
+h2{
+    margin-top: 25px;
+    border-bottom: 3px solid;
+    width: 80px;
+    height: 25px;
+}
+
+.gram{margin: 8px;
+
+}
+
+.photo{
+    width: 300px;
+    height: 300px;
+    background-image: url(img/morf.jpg);
+    background-size: 300px 300px;
+    border-radius: 180px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+
+.buttons{
+    display:flex;
+    /* justify-content:space-between ; */
+    width: 1160px;
+    justify-content: center;
+}
+
+.but{
+min-width: 140px;
+max-width: 180px;
+height: 50px;
+margin: 8px;
+border: 2px solid;
+border-radius: 100px;
+color: black;
+font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+outline: none;
+cursor: pointer;
+font-size: 16px;
+letter-spacing: 1px;
+/* box-shadow: 0px 0px 4px 3px rgb(54, 5, 101); */
+transition: transform .5s;
+will-change: transform;
+border
+}
+.but:focus{
+    border-color: blueviolet;
+}
+
+
+p{
+    margin: 15px;
+}
+
+.but:hover{
+    background-color:dodgerblue ;
+    transform: scale(1.04);
+
+}
+
+.but:active{
+    background-color:dodgerblue ;
+    transform: scale(0.96);
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+p:hover{
+    color: rgb(0, 0, 0);
+
+}
+a:hover{
+    color: none;
+}
+
+
+
+ .bottom{ 
+display: flex;
+justify-content: space-between;
+width: 750px;
+height: 200px;
+ margin-top: 80px; 
+padding-bottom: 0px;
+}
+
+
+
+
+ li{     
+    border-bottom: 3px solid;
+    width: 100%;
+    list-style: circle;
+    font-size: 17px;
+    margin-top:4px ;
+}
+
+h5{
+    border-bottom:2px solid;
+}
+
+.last-part{
+    display: block;
+    justify-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.heart{
+    color: red;
+    display:inline-flex;
+    margin-top: 15px;
+    
+}
+
+.tb{
+    color: black;
+    
+    margin: 0;
+}
+
+h4{
+    margin-top: 25px;
+}
+
+
+.lines{
+    width: 400px;
+    border: 1.8px solid;
+}
+
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } @media screen and (max-width: 992px) { div. contentblock {width: 970px;} }
