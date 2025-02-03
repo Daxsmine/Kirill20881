@@ -20,7 +20,7 @@ input {outline:none;
 }
 
 .header{
-    height: 150px;
+    height: 100px;
     display:flex;
     justify-content: center;
     width: 100%;
@@ -29,9 +29,9 @@ input {outline:none;
 }
 
 .main{
-    height: 375px;
+    height: 470px;
     justify-items: center;
-    margin-top: 20px;
+    margin-top: 130px;
 }
 
 .footer{
@@ -48,7 +48,7 @@ hr{
 }
 
 .block{
-    height: 150px;
+    height: 120px;
     width: 250px;
     border: 2px solid;
     display: flex;
@@ -57,37 +57,40 @@ hr{
 }  
 
 img{
-    width: 160px;
-    height: 155px;
+    width: 130px;
+    height: 125px;
 }
 
 .block1{
-height: 150px;
+height: 120px;
 width: 250px;
-/* background-color: aquamarine; */
+background-color: aquamarine; 
 border: 2px solid;
 text-align: center;
 }  
 
 .block2{
-    height: 150px;
+    height: 120px;
     width: 800px;
     /* background-color: rgb(69, 21, 213); */
     border: 2px solid;
     border-left:0px;
+    font-size: 28px;
+    font-family: "Lexend Giga", serif;
 }  
 
 h1{text-align: center;
-    margin-top: 50px;
-    
+    margin-top: 20px;
 }
 
 h3{
-    margin-top: 55px;
+    margin-top: 25px;
+    font-size: 21px;
+    
 }
 
 .block3{
-    height: 150px;
+    height: 120px;
     width: 250px;
     /* background-color: rgb(212, 23, 200); */
     border:2px solid;
@@ -126,6 +129,7 @@ h2{
     /* justify-content:space-between ; */
     width: 1160px;
     justify-content: center;
+    
 }
 
 .but{
@@ -145,8 +149,8 @@ letter-spacing: 1px;
 /* box-shadow: 0px 0px 4px 3px rgb(54, 5, 101); */
 transition: transform .5s;
 will-change: transform;
-border
 }
+
 .but:focus{
     border-color: blueviolet;
 }
@@ -191,15 +195,18 @@ height: 200px;
 padding-bottom: 0px;
 }
 
-
+.text-per{
+font-size: 24px;
+}
 
 
  li{     
     border-bottom: 3px solid;
     width: 100%;
     list-style: circle;
-    font-size: 17px;
+    font-size: 19px;
     margin-top:4px ;
+    font-family:  "Lexend Giga", serif;
 }
 
 h5{
@@ -207,6 +214,7 @@ h5{
 }
 
 .last-part{
+    margin-top: 15px;
     display: block;
     justify-items: center;
     text-align: center;
@@ -217,7 +225,7 @@ h5{
     color: red;
     display:inline-flex;
     margin-top: 15px;
-    
+    margin-bottom: 20px;
 }
 
 .tb{
@@ -236,4 +244,6 @@ h4{
     border: 1.8px solid;
 }
 
-@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } @media screen and (max-width: 992px) { div. contentblock {width: 970px;} }
+
+
+
