@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+
+body{
+   background-image: url(img/scattered-forcefields.png);
+   max-width: 100%;
+   max-height: 100%;
+   /* max-width: 1920px;
+   max-height: 900px; */
+    text-align: center;
+   
+}
+
+.header{
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    
+}
+
+.block{
+    height: 120px;
+    width: 250px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}  
+
+img{
+    width: 130px;
+    height: 125px;
+}
+
+.block2{
+    height: 120px;
+    width: 800px;
+    /* background-color: rgb(69, 21, 213); */
+    border: 2px solid;
+    border-left:0px;
+    font-size: 28px;
+    font-family: "Lexend Giga", serif;
+}  
+
+.block3{
+    height: 120px;
+    width: 250px;
+    /* background-color: rgb(212, 23, 200); */
+    border:2px solid;
+    border-left: 0px;
+}
+
+h1{text-align: center;
+    margin-top: 20px;
+}
+
+h3{
+    margin-top: 25px;
+    font-size: 21px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+.main{
+    height: 500px;
+    justify-items: center;
+    
+}
+
+.footer{
+    height: 375px;
+    display: block;
+    justify-items: center;
+}
+
+.lines{
+    width: 400px;
+    border: 1.8px solid;
+}
+
+.last-part{
+    margin-top: 15px;
+    display: block;
+    justify-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.heart{
+    color: red;
+    display:inline-flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+h5{
+    border-bottom:2px solid;
+}
+
+p{color: black;}
+
+
+h2{
+    margin-top: 2em;
+}
