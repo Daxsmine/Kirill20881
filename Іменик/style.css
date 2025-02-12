@@ -146,3 +146,113 @@ ul,ol{
     margin-top: 20px;
     margin-left: 50px;
 }
+
+
+
+em{
+    font-size: 22px;
+}
+
+.vidm{
+    background-size: 500px 420px ;
+    background-image: url(img/Відмінювання.png) ;
+    width:500px;
+    height: 420px;
+    
+}
+
+
+
+.vidmin{
+
+    margin-top: 10px;
+    background-image: url(img/vidmin.jpg);
+    background-size: 600px 400px ;
+    width: 600px;
+    height: 400px;
+}
+
+p{  
+    max-width: 1100px;
+    letter-spacing: 0.75px;
+}
+
+
+.blockq{
+    width: 1000px;
+    margin-top: 15px;
+    padding: 13px 30px;
+    text-align: left;
+    height: 80px;
+    border-left: 4px solid  gray;
+    
+}
+
+h4{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+
+hr{
+    margin-top: 40px;
+    border: 1.5px solid;
+    margin-right:200px;
+    margin-left:200px ;
+    max-width: 1420px;
+}
+
+
+
+#quiz{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+#question{
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+#options{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 10px;
+}
+
+#options button{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+#nextBtn{
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#results{
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+button:hover{
+background-color: aqua;
+color: blue;
+}
+
+
+.znaniy{
+    font-size:30px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
