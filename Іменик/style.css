@@ -204,55 +204,49 @@ hr{
 
 
 
-#quiz{
-    max-width: 600px;
-    margin: 0 auto;
+.container {
+    max-width: 500px;
+    margin: auto;
     padding: 20px;
-
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-
-#question{
-font-size: 18px;
-margin-bottom: 20px;
+.question {
+    font-size: 18px;
+    margin-bottom: 15px;
 }
-
-#options{
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    gap: 10px;
-}
-
-#options button{
+.options button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
     padding: 10px;
-    font-size: 16px;
-    border: 1px solid black;
-    background-color: #f9f9f9;
     cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
-#nextBtn{
-    display: none;
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
+.selected {
+    background-color: #ffc107 !important;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
-
-#results{
-    margin-top: 20px;
-    font-weight: bold;
-    text-align: center;
-    letter-spacing: 1px;
-
-}
-
-button:hover{
-background-color: aqua;
-color: blue;
+button:hover {
+    background-color: #218838;
 }
 
 
-.znaniy{
-    font-size:30px;
-    margin-top: 35px;
-    margin-bottom: 25px;
+.quess{
+    font-size: 40px;
+    margin-bottom: 50px;
 }
