@@ -29,7 +29,7 @@ input {outline:none;
 }
 
 .main{
-    height: 500px;
+    height: 470px;
     justify-items: center;
     margin-top: 130px;
 }
@@ -114,10 +114,10 @@ h2{
 }
 
 .photo{
-    width: 300px;
-    height: 300px;
+    width: 380px;
+    height: 360px;
     background-image: url(img/morf.jpg);
-    background-size: 300px 300px;
+    background-size: 380px 360px;
     border-radius: 180px;
     margin-left: 180px;
     margin-right: 180px;
