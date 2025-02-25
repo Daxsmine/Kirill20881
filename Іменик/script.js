@@ -106,7 +106,7 @@ function prevQuestion() {
 
 function finishQuiz() {
     let score = Object.keys(selectedAnswers).filter(index => selectedAnswers[index] === questions[index].answer).length;
-    document.getElementById("quiz").innerHTML = `<h2>Вы завершили тест!</h2><p>Ваш результат: ${score} із ${questions.length}</p>`;
+    document.getElementById("quiz").innerHTML = `<h2>Вы завершили тест!</h2><p>Результат: ${score} із ${questions.length}</p>`;
     document.getElementById("restart").style.display = "block";
     localStorage.clear();
 }
@@ -115,7 +115,7 @@ function restartQuiz() {
     currentQuestionIndex = 0;
     selectedAnswers = {};
     saveProgress();
-    document.getElementById("quiz").innerHTML = '<div class="question" id="question"></div><div class="options" id="options"></div><div class="buttons"><button id="prev" onclick="prevQuestion()">Назад</button><button id="next" onclick="nextQuestion()">Следующий</button><button id="finish" onclick="finishQuiz()" style="display:none;">Завершить тест</button></div>';
+    document.getElementById("quiz").innerHTML = '<div class="question" id="question"></div><div class="options" id="options"></div><div class="buttons"><button id="prev" onclick="prevQuestion()">Назад</button><button id="next" onclick="nextQuestion()">Наступний</button><button id="finish" onclick="finishQuiz()" style="display:none;">Завершити тест</button></div>';
     document.getElementById("restart").style.display = "none";
     loadQuestion();
 }
