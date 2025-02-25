@@ -106,7 +106,7 @@ function prevQuestion() {
 
 function finishQuiz() {
     let score = Object.keys(selectedAnswers).filter(index => selectedAnswers[index] === questions[index].answer).length;
-    document.getElementById("quiz").innerHTML = `<h2>Вы завершили тест!</h2><p>Результат: ${score} із ${questions.length}</p>`;
+    document.getElementById("quiz").innerHTML = `<h2>Ви завершили тест!</h2><p>Результат: ${score} із ${questions.length}</p>`;
     document.getElementById("restart").style.display = "block";
     localStorage.clear();
 }
