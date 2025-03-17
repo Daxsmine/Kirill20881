@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+
+body{
+   background-image: url(img/scattered-forcefields\ \(3\).png);
+   background-repeat:unset;
+   max-width: 100%;
+   max-height: 100%;
+   /* max-width: 1920px;
+   max-height: 900px; */
+    text-align: center;
+   
+}
+
+.header{
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    
+}
+
+.block{
+    height: 120px;
+    width: 250px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}  
+
+img{
+    width: 130px;
+    height: 125px;
+}
+
+.block2{
+    height: 120px;
+    width: 800px;
+    /* background-color: rgb(69, 21, 213); */
+    border: 2px solid;
+    border-left:0px;
+    font-size: 28px;
+    font-family: "Lexend Giga", serif;
+}  
+
+.block3{
+    height: 120px;
+    width: 250px;
+    /* background-color: rgb(212, 23, 200); */
+    border:2px solid;
+    border-left: 0px;
+}
+
+h1{text-align: center;
+    margin-top: 20px;
+}
+
+.testu{
+    margin-top: 42px;
+    font-size: 21px;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+.main{
+    height: auto;
+    margin-bottom: 60px;
+    
+}
+
+.footer{
+    height: 375px;
+    display: block;
+    justify-items: center;
+}
+
+.lines{
+    width: 400px;
+    border: 1.8px solid;
+}
+
+.last-part{
+    margin-top: 15px;
+    display: block;
+    justify-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.heart{
+    color: red;
+    display:inline-flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+h5{
+    border-bottom:2px solid;
+}
+
+p{color: black;
+font-size: 18px;
+margin-top: 28px;
+}
+
+
+h2{
+    margin-top: 1.5em;
+    font-size:35px ;
+}
+
+.zagolov{
+    text-align: left;
+    margin-left: 50px;
+}
+h3{
+    font-size:30px;
+    margin-top: 35px;
+}
+
+strong{
+    font-size: 20px;
+}
+
+li{
+    margin-top: 10px;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+ul,ol{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+
+em{
+    font-size: 22px;
+}
+
+.vidm{
+    background-size: 500px 420px ;
+    background-image: url(img/Відмінювання.png) ;
+    width:500px;
+    height: 420px;
+    
+}
+
+
+
+.vidmin{
+
+    margin-top: 10px;
+    background-image: url(img/vidmin.jpg);
+    background-size: 600px 400px ;
+    width: 600px;
+    height: 400px;
+}
+
+p{  
+    max-width: 1100px;
+    letter-spacing: 0.75px;
+}
+
+
+.blockq{
+    width: 1000px;
+    margin-top: 15px;
+    padding: 13px 30px;
+    text-align: left;
+    height: 80px;
+    border-left: 4px solid  gray;
+    
+}
+
+h4{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+
+hr{
+    margin-top: 40px;
+    border: 1.5px solid;
+    margin-right:200px;
+    margin-left:200px ;
+    max-width: 1420px;
+}
+
+
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.question {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.options button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.selected {
+    background-color: #ffc107 !important;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #218838;
+}
+
+
+.quess{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+
+.tb{
+    margin-top: 0;
+}
+
+#high{
+    font-size: 26px;
+}
