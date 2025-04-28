@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+
+body{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='127' height='127' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' fill-opacity='0.25' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+   max-width: 100%;
+   max-height: 100%;
+   /* max-width: 1920px;
+   max-height: 900px; */
+    text-align: center;
+   
+}
+
+input {outline:none;
+
+}
+
+.header{
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    
+}
+
+
+.block{
+    height: 120px;
+    width: 250px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    border-right: 4px solid black;
+}  
+
+img{
+    width: 130px;
+    height: 125px;
+}
+
+.block1{
+height: 120px;
+width: 250px;
+background-color: aquamarine; 
+/* border: 2px solid; */
+text-align: center;
+}  
+
+.block2{
+    height: 120px;
+    width: 800px;
+    /* background-color: rgb(69, 21, 213); */
+    /* border: 2px solid; */
+    border-left:0px;
+    font-size: 28px;
+    font-family: "Lexend Giga", serif;
+    color: rgb(0, 12, 146);
+} 
+
+.block3{
+    height: 120px;
+    width: 250px;
+    /* background-color: rgb(212, 23, 200); */
+    /* border:2px solid; */
+    border-left: 0px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+p:hover{
+    color: rgb(0, 0, 0);
+
+}
+a:hover{
+    color: none;
+}
+
+table{
+    border: 4px solid black;
+}
+
+.tb1{
+width: 1000px;
+color: rgb(0, 12, 146);
+}
+
+h1{text-align: center;
+    font-size: 70px;
+    font-family: "Lexend Giga", serif;
+   
+}
+
+
+.main{
+    height: 1100px;
+    
+    
+    margin-top: 100px;
+}
+
+
+
+.footer{
+    height: 55px;
+    display: block;
+    justify-items: center;
+}
+
+
+
+.last-part{
+    margin-top: 15px;
+    display: block;
+    justify-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.heart{
+    color: red;
+    display:inline-flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.lines{
+    width: 400px;
+    border: 1.8px solid;
+}
+
+h5{
+    border-bottom:2px solid;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.zagolov{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 18px
+}
+
+h3{
+    font-size: 30px;
+    margin-top: 50PX;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 19px;
+    margin-top: 5px;
+}
+
+ol{
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+
+
+.osobist{
+    display: flex;
+   justify-content:center ;
+   margin-bottom: 50px;
+}
+
+.oleg{
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    margin: 20px;
+}
+
+.fp{
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    margin: 20px;
+}
+
+.direkt{
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    margin: 20px;
+    
+}
+
+
+.blockk{
+    height: 350px;
+    width: 200px; 
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+.centerr{
+    text-align: center;
+}
+
+.vstan:hover{
+    color: red;
+}
